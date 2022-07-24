@@ -1,0 +1,19 @@
+[package]
+authors = ["Donatien Criaud <donatien.criaud@gmail.com>"]
+edition = "2021"
+name = "space"
+version = "0.1.0"
+
+[dependencies]
+config = { version = "0.13.1", features = ['toml'] }
+nannou = "0.18.1"
+rand = "0.8.5"
+serde = { version = "1.0.137", features = ["derive"] }
+
+[profile.dev]
+debug = true
+opt-level = 1
+
+[profile.release]
+debug = false
+opt-level = 3

@@ -1,0 +1,8 @@
+[window]
+height = 8192
+width = 8192
+
+[window.background_color]
+hue = 42
+saturation = 0.45
+lightness = 0.85
